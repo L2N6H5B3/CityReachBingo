@@ -6,54 +6,33 @@ $(function() {
         "Timon Preaches", //0
         "Timon changes song to one not practiced",
         "Timon spontaneously joins the worship team",
-        "Timon moves out of the camera view",
-		"Riley Hosts",
-        "Intro/Outro run accidentally", //5
-        "The microphone gets hit",
-        "Camera Not Focused / crooked",
-        "Luke Quit / Fired joke",
-        "Linus Drops Something",
-        "A Wild LTT'r Appears!", //10
-        "Special Guest (non-ltt)",
-		"Forgets what they were originally talking about",
-        "Savage Jerky!",
-        "Synergy 2!",
-		"LTX News!", //15
-		"MOS Backpacks!",
-        "Squarespace!",
-        "Spectrum Glasses!",
-        "Madrinas Coffee!",
-        "No outro", //20
-		"Private Internet Access!",
-		"No intro",
-		"Colton fired joke",
-        "James saying Frecschbuuks",
-        "Linus eats hot jerky", //25
-		"Linus on the left, Luke on the Right",
-        "Floatplane!", 
-        "Nvidia News!",
-        "AMD News!",
-        "Intel News!", //30
-        "Apple News!",
-        "Microsoft News!",
-		"Nintendo News!",
-		"Fortnite News!",
-        "New Sponsor!",  //35
-        "News comes from the forums! Heck yeah!",
-        "Video output not connected to laptop",
-        "Console Topic for the peasantry",
-        "Luke Laughs REALLY hard about something",
-        "Someone messes with the set",
-        "'We've got a great show for you today!'", //40
-		"'Same bat time, same bat channel!'",
-        "Linus says 'Interesting'",
-        "Bingo is mentioned (how meta)"
+        "Preacher moves out of the camera view",
+	"Timon is excited about the vision",
+        "Vincent Preaches", //5
+        "Tennis reference",
+        "Something about Parkrun",
+        "Jeff Preaches",
+        "Oli Preaches",
+        "Graham Preaches", //10
+        "Guest Preacher",
+	"",
+        "'Glory to God, Joy to the City'",
+        "Vincent movie reference",
+	"Jeremy Preaches", //15
+	"Cliche sermon bumper video",
+        "Church News!",
+        "",
+        "",
+        "", //20
+        "",
+        "",
+        "",
   ];
 
   let spaces = [];
   for (let i = 0; i < 25; i++) {
     if (i === 12) {
-      spaces[i] = "***Free Space*** \n\n T";
+      spaces[i] = "***Free Space*** \n\n 'We're going to learn a new song today'";
     } else {
       const choice = Math.floor(Math.random() * entries.length);
       spaces[i] = entries[choice];
