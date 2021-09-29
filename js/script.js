@@ -7,26 +7,29 @@ $(function() {
         "Timon changes song to one not practiced",
         "Timon spontaneously joins the worship team",
         "Preacher moves out of the camera view",
-		"Timon is excited about the vision",
-        "Vincent Preaches", //5
+		"Timon is excited about the vision", //5
+        "Vincent Preaches", 
         "Tennis reference",
         "Something about Parkrun",
         "Jeff Preaches",
-        "Oli Preaches",
-        "Graham Preaches", //10
+        "Oli Preaches", //10
+        "Graham Preaches",
         "Guest Preacher",
 		"Church News!",
-        "'Glory to God, Joy to the City'",
-        "Vincent movie reference",
-		"Jeremy Preaches", //15
-		"Cliche sermon bumper video",
-        "Today's sermon ... is a video?",
-        "\"...Because of COVID\"",
-        "Timon plays guitar",
-        "Jeremy plays bass", //20
+        "Glory to God, Joy to the City",
+        "Vincent movie reference", //15
+		"Jeremy Preaches",
+		"Sermon bumper video",
+        "Graham references Port Power",
+        "Meet and Greet",
+        "Timon plays guitar", //20
+        "Jeremy plays bass",
         "Timon leads Worship",
-        "Jeff makes an over-appreciated joke",
-        "New sermon series"
+        "Jeff makes a good joke",
+        "Jeff makes a bad joke",
+        "New sermon series...", //25
+		"Technical issues",
+		"ProPresenter crashes" //27
 	];
 
 	let spaces = [];
